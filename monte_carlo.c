@@ -49,8 +49,8 @@ float mc_pi(int n)
   d= x*x + y*y;
   d=pow(d,1/2);
   if(d<=1.0)
-  {s++;}
-  c++;
+  {c++;}
+  s++;
  }
  p=(4*c)/((float)(s));
  return p;
