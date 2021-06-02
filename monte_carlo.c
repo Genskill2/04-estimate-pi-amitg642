@@ -47,7 +47,7 @@ float mc_pi(int n)
  {x=frandom();
   y=frandom();
   d= x*x + y*y;
-  d=pow(d,1/2);
+  d=pow(d,0.5);
   if(d<=1.0)
   {c++;}
   s++;
