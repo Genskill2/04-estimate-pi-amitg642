@@ -41,7 +41,6 @@ int main(void) {
 float mc_pi(int n)
 {float p;
  int c=0;
- int s=0;
  float x,y,d;
  for(int i=1;i<=n;i++)
  {x=frandom();
@@ -50,9 +49,9 @@ float mc_pi(int n)
   d=pow(d,0.5);
   if(d<=1.0)
   {c++;}
-  s++;
+ 
  }
- p=(4*c)/((float)(s));
+ p=4*(c/((float)n);
  return p;
 }
 
