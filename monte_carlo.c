@@ -51,7 +51,7 @@ float mc_pi(int n)
   {c++;}
  
  }
- p=4*(c/((float)n);
+ p=4*(c/((float)n));
  return p;
 }
 
