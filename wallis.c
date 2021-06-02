@@ -25,8 +25,8 @@ int main(void) {
 }
 
 float wallis_pi(int n)
-{ float p=1;
- for(int i=0;i<=n;i++)
+{ float p=1.0;
+ for(int i=1;i<=n+1;i++)
  {p=p*((float)(4*i*i)/(4*i*i -1));
   }
  p=2*p;
